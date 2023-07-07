@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.first-banner-img{
+    width: 500px;
+    border-radius: 100px;
+    border: 2px solid gray;
+    color :white;
+}
+.first-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    border: 1px solid black;
+    background:url("../Image/first-banner-background.jpg");
+    background-repeat:initial;
+}
+.first-banner-text{
+    color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.first-banner-h1, .first-banner-p, .first-banner-a{
+    padding: 10px;
+    margin: 10px;
+}
+.first-banner-h1{
+    font-size: 80px;
+}
+.first-banner-p{
+    font-size: 40px;
+}
+.first-banner-a{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgba(0, 162, 0, 0.436);
+    color: whitesmoke;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+.first-banner-a:hover{
+    background-color: rgba(0, 68, 2, 0.795);
+}
