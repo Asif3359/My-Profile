@@ -21,13 +21,16 @@
     list-style: none;
     padding:13px;
 }
+.active-li{
+    background-color:rgba(139, 138, 138, 0.668); ;
+}
 .nav-a{
     text-decoration: none;
     color: rgb(255, 253, 253);
 }
 .nav-li:hover{
     background-color: rgba(155, 155, 155, 0.634);
-    color: black; 
+    /* color: black;  */
 }
 @media only screen and (max-width: 600px) {
     /* For tablets: */
