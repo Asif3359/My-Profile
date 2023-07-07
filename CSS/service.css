@@ -2,10 +2,16 @@
     margin: 0px;
     padding: 0px;
 }
+.our-service-container{
+    display: block;
+    background-color: rgba(189, 255, 96, 0.555);
+  
+}
 .service-container{
     display: flex;
     justify-content: space-around;
-    
+    /* background-color: rgba(153, 205, 50, 0.573); */
+
 }
 .service-title{
     padding-top: 40px;
@@ -14,9 +20,12 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: 60px;
 }
-.our-service-container{
-    background-color: rgba(189, 255, 96, 0.555);
-
+.service-h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 30px;
 }
 
 .box{

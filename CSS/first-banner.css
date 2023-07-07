@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: space-around;
     height: 100vh;
-    border: 1px solid rgba(0, 0, 0, 0.625);
+    /* border: 1px solid rgba(0, 0, 0, 0.625); */
     /* background:url("../Image/Letter-A-PNG.png")linear-gradient(rgb(251, 67, 67) white); */
     background-color: rgba(196, 255, 108, 0.677);
     background-repeat:no-repeat;
@@ -46,5 +46,10 @@
     background-color: rgba(0, 68, 2, 0.795);
 }
 .second-banner-text{
-    width: 45%;
+    width: 70%;
+}
+.second-banner-extra{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
 }
