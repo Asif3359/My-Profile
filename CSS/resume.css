@@ -1,0 +1,32 @@
+
+.first-resume-container{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.resume-title{
+    color:#181818;
+    font-size: 35px;
+}
+.resume-s-title-1{
+    color: var(--dark-02, #474747);
+    font-size: 26px;
+}
+.resume-s-title-2{
+    color: var(--dark-02, #474747);
+    font-size: 20px;
+}
+.resume-s-title-3{
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+}
+.resume-s-paragraph{
+    color: var(--dark-03, #757575);
+    font-size: 13px;
+}
