@@ -65,7 +65,11 @@
 }
 @media only screen and (max-width: 768px){
     .service-container{
-        display:block;
-
+        display:inline-block;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .our-service-container{
+        text-align: center;
     }
 }
