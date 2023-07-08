@@ -18,9 +18,10 @@
     background-repeat:no-repeat; 
     
     padding: 0px 20px;
-    /* width: 100%; */
-    /* background-color: rgb(237, 237, 237); */
+
     background-color: rgb(255, 255, 255);
+    border: 0.5px solid rgba(0, 128, 0, 0.505);
+
 }
 .first-banner-img{
     width: 400px;
@@ -60,5 +61,10 @@
 }
 .first-banner-a:hover{
     background-color: rgba(0, 68, 2, 0.795);
+}
+.second-banner{
+    height: fit-content;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 

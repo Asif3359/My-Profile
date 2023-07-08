@@ -1,6 +1,7 @@
 
 .first-resume-container{
     background-color: white;
+    border: 0.5px solid rgba(0, 128, 0, 0.505);
 }
 .resume-container{
     display: flex;
@@ -19,22 +20,22 @@
 .resume-s-title-1{
     color: var(--dark-02, #474747);
     font-size: 26px;
-    padding: 5px;
+    padding: 10px;
 }
 .resume-s-title-2{
     color: var(--dark-02, #474747);
     font-size: 20px;
-    padding: 5px;
+    padding: 10px;
 }
 .resume-s-title-3{
     color: var(--dark-03, #757575);
     font-size: 16px;
-    padding: 5px;
+    padding: 10px;
 }
 .resume-s-paragraph{
     color: var(--dark-03, #757575);
     font-size: 13px;
-    padding: 5px;
+    padding: 10px;
 }
 hr{
     margin: 10px;
