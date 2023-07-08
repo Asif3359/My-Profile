@@ -4,13 +4,10 @@
     font-family: 'Courier New', Courier, monospace;
     
 }
-body{
-    border-left: 10px solid green;
-    border-right: 10px solid green;
-}
+
 .first-banner-container{
     padding:10px 50px;
-    background-color: rgba(196, 255, 108, 0.677);
+    /* background-color: rgba(196, 255, 108, 0.677); */
 }
 .first-banner{
     display: flex;
@@ -19,9 +16,11 @@ body{
     gap: 100px;
     height: 100vh;
     background-repeat:no-repeat; 
-    border: 1px solid red;
+    
     padding: 0px 20px;
     /* width: 100%; */
+    /* background-color: rgb(237, 237, 237); */
+    background-color: rgb(255, 255, 255);
 }
 .first-banner-img{
     width: 400px;
@@ -63,10 +62,3 @@ body{
     background-color: rgba(0, 68, 2, 0.795);
 }
 
-.second-banner-text{
-    border: 2px solid rebeccapurple;
-}
-
-.second-banner-photo{
-    border: 2px solid rebeccapurple;
-}

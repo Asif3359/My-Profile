@@ -1,6 +1,6 @@
 
 .first-resume-container{
-    border: 3px solid blueviolet;
+    background-color: white;
 }
 .resume-container{
     display: flex;
