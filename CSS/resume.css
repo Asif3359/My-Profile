@@ -40,3 +40,9 @@
 hr{
     margin: 10px;
 }
+@media only screen and (max-width: 768px){
+    .resume-container{
+        display:block;
+
+    }
+}

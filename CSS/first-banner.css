@@ -67,6 +67,9 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.banner-contact-button{
+    display: flex;
+}
 
 @media only screen and (max-width: 600px) {
     /* For tablets: */
@@ -74,7 +77,7 @@
         display:block;
         height: auto;
         padding: 20px;
-        
+        width: 100%;
     }
     
 
