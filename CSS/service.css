@@ -5,11 +5,14 @@
 .our-service-container{
     background-color: white;
     border: 0.5px solid rgba(0, 128, 0, 0.505);
+    margin: 10px 30px 5px;
+    
 }
 .service-container{
     display: flex;
     justify-content: space-around;
     padding: 25px 0px 10px 0px;
+    /* margin-top: 10px; */
 }
 .service-title{
     padding-top: 40px;

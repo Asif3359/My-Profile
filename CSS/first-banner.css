@@ -8,6 +8,12 @@
 .first-banner-container{
     padding:0px 0px;
     /* background-color: rgba(196, 255, 108, 0.677); */
+    margin-top: 90px;
+}
+.second-banner-container{
+    padding:0px 0px;
+    /* background-color: rgba(196, 255, 108, 0.677); */
+    margin: 10px 30px 5px;
 }
 .first-banner{
     display: flex;
@@ -19,6 +25,7 @@
     padding: 0px 20px;
     background-color: rgb(255, 255, 255);
     border: 0.5px solid rgba(0, 128, 0, 0.505);
+    position: unset;
 
 }
 .first-banner-img{
@@ -90,6 +97,7 @@
     .first-banner-container{
         padding:3px 3px;
         /* background-color: rgba(196, 255, 108, 0.677); */
+        
     }
     .second-banner{
         height: fit-content;
@@ -106,5 +114,20 @@
     
 
   }
+
+  /* @media only screen and (max-width: 900px) {
+
+    .first-banner-container{
+        margin-top: 655px;
+    }
+  } */
+  @media only screen and (min-width: 250px) {
+
+    .first-banner-container{
+        margin-top: 90px;
+    }
+  }
+
+
   
 
