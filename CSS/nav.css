@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: space-around;
     background-color: green;
+    padding: 0px 50px;
     
 }
 .nav-img{
@@ -23,27 +24,60 @@
 .nav-li{
     list-style: none;
     padding:13px;
+    justify-content: space-around;
 }
-.active-li{
+.active-a{
     background-color:rgba(139, 138, 138, 0.668); ;
 }
 .nav-a{
     text-decoration: none;
     color: rgb(255, 253, 253);
+    padding: 15px;
 }
-.nav-li:hover{
+.nav-a:hover{
     background-color: rgba(155, 155, 155, 0.634);
     /* color: black;  */
 }
+
+@media only screen and (max-width: 850px) {
+    /* For tablets: */
+    .nav-container{
+        font-size: 20px;
+        display: block;
+        justify-content:space-around;
+        align-items: flex-start;
+    }
+    .nav-ul{
+        display:block;;
+    
+    }
+  }
+
 @media only screen and (max-width: 600px) {
     /* For tablets: */
     .nav-container{
-        font-size: 14px;
+        font-size: 11px;
+        display: block;
+        justify-content:space-around;
+        align-items: flex-start;
+        padding: 0px 10px;
+    }
+    .nav-ul{
+        display:block;;
+    
     }
   }
   @media only screen and (max-width: 450px) {
     /* For tablets: */
     .nav-container{
         font-size: 11px;
+        display: block;
+        justify-content:space-around;
+        align-items: flex-start;
+        padding: 0px 10px;
+    }
+    .nav-ul{
+        display:block;;
+    
     }
   }

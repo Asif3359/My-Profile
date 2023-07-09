@@ -43,6 +43,10 @@
     padding: 10px;
     margin: 10px;
 }
+.first-banner-h2{
+    padding: 10px;
+    margin: 10px;
+}
 .first-banner-h1{
     font-size: 80px;
 }
@@ -77,7 +81,7 @@
         display:block;
         height: auto;
         padding: 20px;
-        width: 100%;
+        
     }
     .first-banner{
         padding: 0px 0px;
@@ -93,6 +97,13 @@
         height: fit-content;
         padding-top: 10px;
         padding-bottom: 25px;
+    }
+    .first-banner-img{
+        width: 350px;
+        height: 350px;
+        border-radius: 200px;
+        border: 2px solid gray;
+        color :white;
     }
     
 
