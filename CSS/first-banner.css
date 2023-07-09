@@ -13,7 +13,7 @@
 .second-banner-container{
     padding:0px 0px;
     /* background-color: rgba(196, 255, 108, 0.677); */
-    margin: 10px 30px 5px;
+    margin: 10px 25px 5px;
 }
 .first-banner{
     display: flex;
@@ -115,16 +115,12 @@
 
   }
 
-  /* @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 900px) {
 
     .first-banner-container{
-        margin-top: 655px;
-    }
-  } */
-  @media only screen and (min-width: 250px) {
-
-    .first-banner-container{
-        margin-top: 90px;
+        margin-top: 590px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
   }
 
