@@ -8,7 +8,7 @@
 .first-banner-container{
     padding:0px 0px;
     /* background-color: rgba(196, 255, 108, 0.677); */
-    margin-top: 90px;
+    margin-top: 10px;
 }
 .second-banner-container{
     padding:0px 0px;
@@ -25,8 +25,6 @@
     padding: 0px 20px;
     background-color: rgb(255, 255, 255);
     border: 0.5px solid rgba(0, 128, 0, 0.505);
-    position: unset;
-
 }
 .first-banner-img{
     width: 400px;
@@ -118,7 +116,7 @@
   @media only screen and (max-width: 900px) {
 
     .first-banner-container{
-        margin-top: 590px;
+        /* margin-top: +100%; */
         padding-left: 25px;
         padding-right: 25px;
     }
