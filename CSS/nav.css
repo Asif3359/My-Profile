@@ -145,3 +145,22 @@
         padding:13px 7px;
     }
   }
+  @media only screen and (max-width: 300px) {
+    .nav-container{
+        font-size: 9px;
+        display: block;
+        justify-content:space-around;
+        align-items: flex-start;
+        padding: 0px 10px;
+    }
+    .nav-ul{
+        display:flex;
+        margin-left: 0px;
+        margin-top: 0px;
+        justify-content: left;
+    
+    }
+    .nav-a{
+        padding:10px 5px;
+    }
+  }
