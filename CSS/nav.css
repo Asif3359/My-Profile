@@ -35,7 +35,7 @@
     background-color: rgba(0, 91, 0, 0.695);
     border-radius: 5px;
     position:sticky;
-    top: 3px; 
+    top: 1px; 
     
 }
 .nav-li{
@@ -60,23 +60,28 @@
     /* color: black;  */
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 950px) {
     /* For tablets: */
     .nav-container{
-        font-size: 20px;
+        font-size: 16px;
         display: block;
         justify-content:space-around;
         align-items: flex-start;
     }
     .nav-ul{
-        display:block;;  
+        display:flex;  
         margin-left: 0px;
         margin-top: 0px;
+        justify-content: left;
     
+    }
+    .nav-a{
+    
+        padding:13px 13px;
     }
   }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 670px) {
     /* For tablets: */
     .nav-container{
         font-size: 11px;
@@ -86,29 +91,57 @@
         padding: 0px 10px;
     }
     .nav-ul{
-        display:block;;   
+        display:flex;   
         margin-left: 0px;
         margin-top: 0px;
+        justify-content: left;
     
+    }
+    .nav-a{
+    
+        padding:13px 13px;
     }
     .nav-img{
 
         padding: 20px 0px;
     }
   }
-  @media only screen and (max-width: 450px) {
-    /* For tablets: */
+  @media only screen and (max-width: 460px) {
     .nav-container{
-        font-size: 11px;
+        font-size: 9px;
         display: block;
         justify-content:space-around;
         align-items: flex-start;
         padding: 0px 10px;
     }
     .nav-ul{
-        display:block;; 
+        display:flex;
         margin-left: 0px;
         margin-top: 0px;
+        justify-content: left;
     
+    }
+    .nav-a{
+    
+        padding:13px 9px;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .nav-container{
+        font-size: 9px;
+        display: block;
+        justify-content:space-around;
+        align-items: flex-start;
+        padding: 0px 10px;
+    }
+    .nav-ul{
+        display:flex;
+        margin-left: 0px;
+        margin-top: 0px;
+        justify-content: left;
+    
+    }
+    .nav-a{
+        padding:13px 7px;
     }
   }
