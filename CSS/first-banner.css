@@ -23,9 +23,11 @@
     height: 100vh;
     background-repeat:no-repeat; 
     padding: 0px 20px;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgba(36, 154, 23, 0.582); */
+
     border: 0.5px solid rgba(0, 128, 0, 0.505);
 }
+
 .first-banner-img{
     width: 400px;
     height: 400px;
@@ -33,14 +35,25 @@
     border: 2px solid gray;
     color :white;
 }
+.nav-banner-img{
+    background-color: rgba(255, 255, 255, 0.486);
+}
 .first-banner-text{
     display:block;
     color: rgb(73, 73, 73);;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.nav-banner-text{
+    color: white;
+}
+
 .first-banner-span{
     color:rgba(0, 138, 0, 0.782); 
     
+}
+.nav-banner-span{
+    color: rgba(255, 255, 0, 0.881);
 }
 .first-banner-h1, .first-banner-p {
     padding: 10px;
@@ -68,6 +81,9 @@
 }
 .first-banner-a:hover{
     background-color: rgba(0, 68, 2, 0.795);
+}
+.nav-banner-a{
+    background-color: rgba(174, 174, 174, 0.664);
 }
 .second-banner{
     height: fit-content;

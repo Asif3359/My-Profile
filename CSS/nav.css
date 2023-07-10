@@ -4,7 +4,12 @@
 }
 .menu-bar{
     height: 100%;
-    background-color: rgb(107, 128, 0);
+    /* background-color: rgb(107, 128, 0); */
+    background-image: url("../Image/A.png"),linear-gradient(rgb(0, 144, 24), rgb(0, 144, 24));
+    background-blend-mode: overlay;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: block;
 }
 .nav-container{
