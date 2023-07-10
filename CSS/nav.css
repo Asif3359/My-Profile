@@ -48,8 +48,10 @@
     background-color:rgba(139, 138, 138, 0.668); ;
 }
 .nav-a{
+    
     text-decoration: none;
     color: rgb(255, 253, 253);
+    font-weight: bolder;
     padding:13px 26px;
     border-radius: 5px;
 }
