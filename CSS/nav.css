@@ -84,7 +84,7 @@
 @media only screen and (max-width: 670px) {
     /* For tablets: */
     .nav-container{
-        font-size: 11px;
+        font-size: 13px;
         display: block;
         justify-content:space-around;
         align-items: flex-start;
@@ -108,7 +108,7 @@
   }
   @media only screen and (max-width: 460px) {
     .nav-container{
-        font-size: 9px;
+        font-size: 10px;
         display: block;
         justify-content:space-around;
         align-items: flex-start;
@@ -128,7 +128,7 @@
   }
   @media only screen and (max-width: 360px) {
     .nav-container{
-        font-size: 9px;
+        font-size: 10px;
         display: block;
         justify-content:space-around;
         align-items: flex-start;
